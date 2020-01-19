@@ -2,3 +2,135 @@
     height: 100%;
     width: 300px;
 }
+
+.Carousel-acc{
+    height: 300px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.CImg{
+    height: 300px;
+    width: 40%
+}
+
+.CCaption{
+    color: orange;
+    background-color: rgba(136, 200, 218, 0.6);
+}
+
+.finder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dosis', Arial, sans-serif;
+}
+
+.finder h1{
+    margin-top: 160px;
+    font-weight: lighter;
+    font-size: 22px;
+    letter-spacing: 0.2em;
+    margin-bottom: 90px;
+}
+
+.contactor{
+    display: flex;
+}
+
+.deta{
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+    color: #777;
+}
+
+.footer{
+    padding-top: 50px;
+    height: 405px;
+    background-color: #F8F8F8;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img{
+    height: 32px;
+    width: 85px;
+}
+
+.frames{
+    display: flex;
+    margin-top: 28px;
+}
+
+.rect{
+    height: 32px;
+    width: 32px;
+    transform: rotate(45deg);
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.lala{
+    transform: rotate(-45deg);
+    transition: 0.2s;
+}
+
+.rect:hover{
+    background-color: black;
+    color: white;
+}
+
+.footer a{
+    margin-top: 120px;
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    color: #777;
+    letter-spacing: 0.1em;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.footer h5{
+    color: #777;
+    font-family: 'Dosis', sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.AboutGrad{
+    height: 300px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(90deg, orange, aqua);
+    color: white;
+    text-align: center;
+    padding: 5%;
+    font-weight: bold;
+    font-style: initial;
+    font-size: 18px;
+    font-family: monospace;
+}
+
+.space{
+    height: 100px;
+    width: 100%;
+}
+
+.NavOp{
+    color: aqua;
+}
