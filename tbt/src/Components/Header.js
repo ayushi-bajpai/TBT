@@ -14,16 +14,10 @@ class Header extends Component {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link href="#home" style={{color: 'orange'}}>Home</Nav.Link>
-              <Nav.Link href="#features" className="NavOp">Product</Nav.Link>
-              <Nav.Link href="#pricing">Amneties</Nav.Link>
-              <Nav.Link href="#pricing">Community</Nav.Link>
-              <Nav.Link href="#pricing">Technology</Nav.Link>
-              <Nav.Link href="#pricing">Upcoming Locations</Nav.Link>
-              <Nav.Link href="#pricing">Team</Nav.Link>
-              <Nav.Link href="#pricing">Services</Nav.Link>
-              <Nav.Link href="#pricing">About Us</Nav.Link>
-              <Nav.Link href="#pricing">Contact</Nav.Link>
+              <Nav.Link href="home" style={{color: 'orange'}}>Home</Nav.Link>
+              <Nav.Link href="services" className="NavOp">Services</Nav.Link>
+              <Nav.Link href="aboutus">About Us</Nav.Link>
+              <Nav.Link href="contact">Contact</Nav.Link>
             </Nav>
             {/* <Form inline>
               <FormControl type="text" placeholder="Search" className="mr-sm-2" />

@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import "../styles/main.css";
+import BG from "../others/BG1.png";
 
 class About extends Component{
     render() {
         return (
             <React.Fragment>
                 <div className="space"></div>
-                <div className="AboutGrad">
+                <div className="AboutGrad" style={{ backgroundImage: `url("${BG}")` }}>
                 What do you really look for when you are in a new city away from home, friends and family?
                 <br />
                 Well, you look for exactly what you are away from. 
