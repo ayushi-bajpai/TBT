@@ -5,12 +5,27 @@ import KarolBagh from "../others/KarolBagh.jpg";
 import SatyaNiketan from "../others/SatyaNiketan.jpg";
 import Team1 from "../others/Team1.jpg";
 import TeamBG from "../others/TeamBG.png";
+import BG from "../others/BG1.png";
+
 import "../styles/main.css";
+import Typical from "react-typical";
 
 class Home extends Component {
   render() {
     return (
       <React.Fragment>
+        <div
+          style={{ backgroundImage: `url("${TeamBG}")` }}
+          className="homemain"
+        >
+          <Typical
+            steps={["Hello world !", 1000, "Stay the Terrific way", 500]}
+            loop={Infinity}
+            wrapper="p"
+            className="typical"
+          />
+        </div>
+        <div className="space"></div>
         <Alert variant="warning">
           <Alert.Heading>Coming soon at:</Alert.Heading>
         </Alert>
@@ -25,7 +40,10 @@ class Home extends Component {
                 />
               </div>
               <div class="flip-card-back">
-                <h1>Noida City, <br />Uttar Pradesh</h1>
+                <h1>
+                  Noida City, <br />
+                  Uttar Pradesh
+                </h1>
               </div>
             </div>
           </div>
@@ -99,14 +117,13 @@ class Home extends Component {
         </Alert>
 
         <div style={{ display: "flex" }}>
-          <div class="container" >
+          <div class="container">
             <img src={Team1} alt="Avatar" class="image" />
             <div class="overlay">
               <p>AYUSHI BAJPAI</p>
               <p>Software Developer</p>
             </div>
           </div>
-          
         </div>
         <div className="space"></div>
 
@@ -116,36 +133,84 @@ class Home extends Component {
 
         <Carousel className="Carousel-acc">
           <Carousel.Item>
-            <img className="d-block w-100 CImg" src={TeamBG} alt="First slide" />
+            <img
+              className="d-block w-100 CImg"
+              src={TeamBG}
+              alt="First slide"
+            />
             <Carousel.Caption>
               <h3 className="CCaption">
-                Lorem ipsum dolor sit amet, consectetur adippisicing Lorem ipsum dolor sit amet, consectetur adippisicing
-                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</h3>
-                <br />
-                <p style={{fontFamily: 'monospace', float: 'right', fontSize: '18px'}}>~ Richa Sharma</p>
+                Lorem ipsum dolor sit amet, consectetur adippisicing Lorem ipsum
+                dolor sit amet, consectetur adippisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud
+              </h3>
+              <br />
+              <p
+                style={{
+                  fontFamily: "monospace",
+                  float: "right",
+                  fontSize: "18px"
+                }}
+              >
+                ~ Richa Sharma
+              </p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="d-block w-100 CImg" src={TeamBG} alt="First slide" />
+            <img
+              className="d-block w-100 CImg"
+              src={TeamBG}
+              alt="First slide"
+            />
             <Carousel.Caption>
               <h3 className="CCaption">
-                Lorem ipsum dolor sit amet, consectetur adippisicing Lorem ipsum dolor sit amet, consectetur adippisicing
-                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</h3>
-                <br />
-                <p style={{fontFamily: 'monospace', float: 'right', fontSize: '18px'}}>~ Aditya Narayan</p>
+                Lorem ipsum dolor sit amet, consectetur adippisicing Lorem ipsum
+                dolor sit amet, consectetur adippisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud
+              </h3>
+              <br />
+              <p
+                style={{
+                  fontFamily: "monospace",
+                  float: "right",
+                  fontSize: "18px"
+                }}
+              >
+                ~ Aditya Narayan
+              </p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="d-block w-100 CImg" src={TeamBG} alt="First slide" />
+            <img
+              className="d-block w-100 CImg"
+              src={TeamBG}
+              alt="First slide"
+            />
             <Carousel.Caption>
               <h3 className="CCaption">
-                Lorem ipsum dolor sit amet, consectetur adippisicing Lorem ipsum dolor sit amet, consectetur adippisicing
-                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</h3>
-                <br />
-                <p style={{fontFamily: 'monospace', float: 'right', fontSize: '18px'}}>~ Rama K Iyer</p>
+                Lorem ipsum dolor sit amet, consectetur adippisicing Lorem ipsum
+                dolor sit amet, consectetur adippisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud
+              </h3>
+              <br />
+              <p
+                style={{
+                  fontFamily: "monospace",
+                  float: "right",
+                  fontSize: "18px"
+                }}
+              >
+                ~ Rama K Iyer
+              </p>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
+        <div className="space"></div>
+        <div className="space"></div>
+
       </React.Fragment>
     );
   }
